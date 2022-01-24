@@ -30,3 +30,7 @@ $ kubectl get pods --namespace dapr-system
 ```bash
 $ dotnet new webapi -o dapr.microservice.webapi
 ```
+- run dapr app
+```bash
+$ dapr run --app-id <app id> --app-port <port number> --dapr-http-port <port in dapper> dotnet run
+```
